@@ -11,6 +11,9 @@
 }
 
 .jumbotron h1 {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
   font-size: 4em;
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: italic;
