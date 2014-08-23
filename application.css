@@ -8,12 +8,22 @@
 }
 
 .jumbotron {
+  background-image:url('');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: Black 5px solid;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
 }
 
 .jumbotron h1 {
   margin-left: auto;
   margin-right: auto;
-  padding: 20px;
+  padding-left: 195px;
   font-size: 4em;
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: italic;
@@ -23,10 +33,7 @@
 .jumbotron p {
   margin-left: auto;
   margin-right: auto;
-}
-
-.social {
-}
-
-.professional {
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
