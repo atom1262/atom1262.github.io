@@ -7,20 +7,18 @@
   padding: 5%;
 }
 
-.header {
+.jumbotron {
+}
+
+.jumbotron h1 {
   font-size: 4em;
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: italic;
   font-weight: bold;
-  position: justified;
 }
 
 .social {
 }
 
 .professional {
-}
-
-a {
-  color: DarkSlateBlue;
 }
