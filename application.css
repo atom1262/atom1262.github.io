@@ -1,6 +1,7 @@
-@media (min-width: @screen-sm-min) {}
-@media (min-width: @screen-md-min) {}
-@media (min-width: @screen-lg-min) {}
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){}
 
 #wrapper  {
   width: 90%;
