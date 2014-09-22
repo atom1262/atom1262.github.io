@@ -1,32 +1,26 @@
-@media(max-width:767px){}
-@media(min-width:768px){}
-@media(min-width:992px){}
-@media(min-width:1200px){}
+body {
+  background-image: url("Boston.jpg");
 
-#wrapper  {
-  width: 90%;
-  height: 700px;
-  background-color: Gainsboro;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 5%;
 }
 
 .jumbotron {
-  background-image:url('');
-  height: 500px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  border: Black 5px solid;
+  position: relative;
+  height: 300px;
+  border: black 5px solid;
+  text-align: center;
+  top: 10em;
+  overflow: auto;
+  margin: 35px;
+  opacity: 0.8;
 }
 
 .jumbotron .container {
+  position: absolute;
 }
 
 .jumbotron h1 {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 183px;
+  display: inline;
+  text-align: center;
   font-size: 4em;
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: italic;
@@ -34,10 +28,11 @@
 }
 
 .jumbotron p {
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 20px;
-  padding-left: 130px;
-  padding-right: 130px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
 }
 
+.btn-group {
+  z-index: 1;
+}
