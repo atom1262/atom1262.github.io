@@ -1,21 +1,27 @@
 body {
   background-color: #5e2750;
-
+  padding: 20px 20px 20px 20px;
 }
 
 .jumbotron {
   position: relative;
-  height: 300px;
-  border: black 5px solid;
+  height: 325px;
+  border: #2c001e 5px solid;
   text-align: center;
   top: 10em;
   overflow: auto;
   margin: 35px;
-  opacity: 0.8;
+  opacity: 0.7;
+}
+
+.jumbotron .pull-left .pull-right li {
+  z-index: 5;
+  font-size: 1em;
 }
 
 .jumbotron .container {
   position: absolute;
+  z-index: 0;
 }
 
 .jumbotron h1 {
@@ -25,14 +31,10 @@ body {
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-style: italic;
   font-weight: bold;
+  color: #dd4814;
 }
 
 .jumbotron p {
-  display: inline-block;
   text-align: center;
-  margin: 10px;
-}
-
-.btn-group {
-  z-index: 1;
+  padding: 10px 10px 10px 10px;
 }
