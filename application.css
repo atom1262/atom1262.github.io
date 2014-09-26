@@ -1,45 +1,45 @@
 @import "http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css";
 
-/*body {
+body {
   background-color: #5e2750;
   padding: 20px 20px 20px 20px;
 }
 
 .jumbotron {
   position: relative;
-  height: 325px;
-  border: #2c001e 5px solid;
-  text-align: center;
-  top: 10em;
-  overflow: auto;
+  height: 550px;
+  border: #dd4814 8px solid;
+  overflow: hidden;
   margin: 35px;
   opacity: 0.7;
 }
 
-.jumbotron .pull-left .pull-right li {
-  z-index: 5;
-  font-size: 1em;
-}
-
 .jumbotron .container {
-  position: absolute;
-  z-index: 0;
 }
 
 .jumbotron h1 {
-  display: inline;
   text-align: center;
+  display: block;
   font-size: 4em;
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
-  font-style: italic;
   font-weight: bold;
+  color: #5e2750;
+}
+
+.jumbotron ul {
+  display: block;
+  padding: 10px 10px 0 10px;
+  margin-left: 350px;
+  color: #2c001e;
+}
+
+.jumbotron ul a {
   color: #dd4814;
 }
 
-.jumbotron p {
-  text-align: center;
-  padding: 10px 10px 10px 10px;
-}*/
+.jumbotron ul a:hover {
+  color: #5e2750;
+}
 
 .circular-menu {
   width: 250px;
@@ -71,7 +71,7 @@
 
 .circle a {
   text-decoration: none;
-  color: black;
+  color: #5e2750;
   display: block;
   height: 40px;
   width: 40px;
@@ -84,25 +84,26 @@
 }
 
 .circle a:hover {
-  color: #eef;
+  color: #dd4814;
 }
 
 .menu-button {
   position: absolute;
   top: calc(50% - 30px);
-  left: calc(50% - 30px);
+  left: calc(50% - 22px);
   text-decoration: none;
-  text-align: center;
-  color: #444;
+  text-align: ;
+  color: #5e2750;
   border-radius: 50%;
   display: block;
   height: 40px;
   width: 40px;
   line-height: 40px;
   padding: 10px;
-  background: #dde;
+  background: transparent;
 }
 
 .menu-button:hover {
-  background-color: #eef;
+  color: #dd4814;
+  text-decoration: none;
 }
