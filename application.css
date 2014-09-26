@@ -80,17 +80,23 @@ body {
 
 .jumbotron ul {
   display: block;
+  text-align: center;
   padding: 10px 10px 0 10px;
-  margin-left: 250px;
+  margin-left: 0px;
   color: #e1592d;
   font-size: 1.2em;
 }
 
 .jumbotron ul a {
-  color: #9ad2b8;
+  color: #9ad2ba;
 }
 
 .jumbotron ul a:hover {
+  color: #f2b65a;
+  text-decoration: none;
+}
+
+.jumbotron .fa-ul i {
   color: #65a33f;
 }
 
