@@ -1,17 +1,18 @@
 @import "http://netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.css";
 
 body {
-  background-color: #5e2750;
+  background-color: #9ad2b8;
   padding: 20px 20px 20px 20px;
 }
 
 .jumbotron {
+  background-color: #ebe1cb;
   position: relative;
-  height: 550px;
-  border: #dd4814 8px solid;
+  height: 600px;
+  border: #f2b65a 20px solid;
+  outline: #e1592d 25px solid;
   overflow: hidden;
-  margin: 35px;
-  opacity: 0.7;
+  margin: 50px 100px 50px 100px;
 }
 
 .jumbotron .container {
@@ -23,22 +24,23 @@ body {
   font-size: 4em;
   font-family: 'Gill Sans', 'Trebuchet MS', sans-serif;
   font-weight: bold;
-  color: #5e2750;
+  color: #65a33f;
 }
 
 .jumbotron ul {
   display: block;
   padding: 10px 10px 0 10px;
-  margin-left: 350px;
-  color: #2c001e;
+  margin-left: 250px;
+  color: #e1592d;
+  font-size: 1.2em;
 }
 
 .jumbotron ul a {
-  color: #dd4814;
+  color: #9ad2b8;
 }
 
 .jumbotron ul a:hover {
-  color: #5e2750;
+  color: #65a33f;
 }
 
 .circular-menu {
@@ -71,7 +73,7 @@ body {
 
 .circle a {
   text-decoration: none;
-  color: #5e2750;
+  color: #65a33f;
   display: block;
   height: 40px;
   width: 40px;
@@ -84,7 +86,7 @@ body {
 }
 
 .circle a:hover {
-  color: #dd4814;
+  color: #e1592d;
 }
 
 .menu-button {
@@ -92,8 +94,7 @@ body {
   top: calc(50% - 30px);
   left: calc(50% - 22px);
   text-decoration: none;
-  text-align: ;
-  color: #5e2750;
+  color: #65a33f;
   border-radius: 50%;
   display: block;
   height: 40px;
