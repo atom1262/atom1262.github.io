@@ -63,7 +63,7 @@ body {
   height: 600px;
   border: #f2b65a 20px solid;
   outline: #e1592d 25px solid;
-  overflow: hidden;
+  overflow: scroll;
   margin: 50px 100px 50px 100px;
 }
 
